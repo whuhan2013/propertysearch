@@ -40,21 +40,7 @@ var PropertyView = React.createClass({
 
     };
   },
-   //组件挂载的时候调用
-  // componentDidMount(){
-  //     var mynav2=this.props.mynav2;
-      
-  //     BackAndroid.addEventListener('hardwareBackPress',function(){
-         
-  //           //很熟悉吧，入栈出栈~ 把当前的页面pop掉，这里就返回到了上一个页面:List了
-  //           //ToastAndroid.show('收到点击返回键信息...',ToastAndroid.SHORT);
-  //          //pro.onBack();
-  //          mynav2.pop();
-  //           //navigator.jumpBack();
-  //           //mynav2.replacePreviousAndPop(mynav2.getCurrentRoutes(0));
-  //           return true;
-  //         });
-  //       }
+   
 
   render: function() {
     var property = this.props.property; // 由SearchResult传递的搜索结果
